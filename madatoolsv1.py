@@ -33,25 +33,25 @@ def bttn(x,y,text,bcolor,fcolor,cmd):
 
 
 def cmd():
-    print('You clicked WEB TICKET')
-
+    webbrowser.open_new_tab("https://cism-web.es.corpintra.net/cgi-bin/webTickets/webTicket.pl?t=Mbarg WEB Ticket General")
+    
 def cmd1():
-    print('You clicked UNIFY TICKET')
-
+    webbrowser.open_new_tab("https://atosunify.service-now.com/unify?id=index")
+    
 def cmd2():
-    print('You clicked COSYMA')
-
+    webbrowser.open_new_tab("https://configmgr.smi.corpintra.net/RDWeb/Pages/en-US/default.aspx")
+    
 def cmd3():
-    print('You clicked IT SHOPS')
-
+    webbrowser.open_new_tab("https://itshop.app.corpintra.net/itshop")
+    
 def cmd4():
-    print('You clicked MOCHA')
-
+    webbrowser.open_new_tab("https://web3270-an23nmt.mf.corpintra.net/")
+    
 def cmd5():
-    print('You clicked AD')
+    os.system('start %windir%\system32\dsa.msc')
 
 def cmd6():
-    print('You clicked ASISTENCIA REMOTA')
+    os.system('start %windir%\system32\msra.exe /offerra')
 
 def cmd7():
     print('You clicked VNC')
@@ -60,7 +60,8 @@ def cmd8():
     print('You clicked PRINT SERVER')
 
 def cmd9():
-    print('You clicked REMOTE DESKTOP')
+    os.system('start %windir%\system32\mstsc.exe')
+
 
 def cmd10():
     print('You clicked ENTORNO QSYS')
